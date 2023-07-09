@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    
+    <div id="content">
+        <div id="quadro">
+            <p>Vitórias do X: <a id="vitoriasX">0</a></p>
+            <p>Vitórias do O: <a id="vitoriasO">0</a></p>
+            <p>Velhas: <a id="velhas">0</a></p>
+            <button id="reiniciarPlacar">Reiniciar Placar</button>
+        </div>
+        <h1><a id="msg"></a></h1>
+        
+
+        <div id="jogo">
+            <table id="jogoDaVelha">
+                <tr id="1">
+                    <td class="casa" id="1"></td>
+                    <td class="casa" id="2"></td>
+                    <td class="casa" id="3"></td>
+                </tr>
+    
+                <tr id="2">
+                    <td class="casa" id="1"></td>
+                    <td class="casa" id="2"></td>
+                    <td class="casa" id="3"></td>
+                </tr>
+    
+                <tr id="3">
+                    <td class="casa" id="1"></td>
+                    <td class="casa" id="2"></td>
+                    <td class="casa" id="3"></td>
+                </tr>
+            </table>
+        </div>
+
+        <button id="reiniciar">Reiniciar Jogo</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
